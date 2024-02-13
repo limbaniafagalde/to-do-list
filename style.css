@@ -1,0 +1,27 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#create-task{
+    margin: 15px 0;
+}
+
+.delete{
+    margin: 10px;
+}
+
+.filter{
+    margin: 20px 0;
+}
+
+.create:hover{
+    background-color:rgb(230, 144, 233);
+    color: white;
+}
+
+.mark-complete{
+    width: 28px;
+    height: 28px;
+    margin: 5px;
+    vertical-align: middle;
+}

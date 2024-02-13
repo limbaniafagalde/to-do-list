@@ -1,0 +1,33 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+            <h2>To Do List</h2>
+            <div class="filter">
+                <a href="#" class="btn btn-info active" role="button" id="all" aria-pressed="true">All</a>
+                <a href="#" class="btn btn-info active" role="button" id="completed" aria-pressed="true">Completed</a>
+                <a href="#" class="btn btn-info active" role="button" id="active" aria-pressed="true">Active</a>
+            </div>
+            <div id='todo-list'>
+            </div>
+            <form id="create-task">
+                <input type="text" id="new-task-content"  placeholder="new task" required>
+                <button class="btn btn-secondary create">Create</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
